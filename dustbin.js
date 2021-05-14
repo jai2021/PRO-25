@@ -14,7 +14,7 @@ class Dustbin{
 
     display()
     {
-        fill("red");
+        fill("lightgrey");
         noStroke();
         rectMode(CENTER);
         rect(this.dustbinObject.position.x,this.dustbinObject.position.y,this.width,this.height);

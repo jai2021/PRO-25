@@ -31,7 +31,7 @@ function setup() {
   dustbin1=new Dustbin(700,325,10,220);
   //dustbin2=new Dustbin(850,380,280,10);
   dustbin3=new Dustbin(980,325,10,220);
-  ground1=new Ground(600,392.5,1200,15);
+  ground1=new Ground(600,392.5,1200,10);
 
   
 }
@@ -39,7 +39,7 @@ function setup() {
 
 function draw() {
   
-  background("red");
+  background("lightgrey");
 
   Engine.update(engine);
   paper1.display();
